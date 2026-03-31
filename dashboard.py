@@ -40,7 +40,7 @@ with st.sidebar:
     )
     annual_fee_pct = st.slider(
         "Annual fund fee (%)",
-        min_value=0.0, max_value=3.0, value=0.75, step=0.25,
+        min_value=0.0, max_value=3.0, value=2.0, step=0.25,
         format="%.2f%%",
         help="Annual fee charged to the homeowner, calculated as this percentage of the "
              "fund's locked-price stake each year. This is the fund's primary recurring "
